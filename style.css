@@ -38,3 +38,8 @@ th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom
 .card ul, .card ol { margin: 0; padding-left: 20px; }
 .card p:first-child { margin-top: 0; }
 .card p:last-child { margin-bottom: 0; }
+.stores { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0; }
+.store { display: inline-flex; align-items: center; gap: 12px; min-width: 200px; padding: 10px 20px 10px 16px; border-radius: 14px; background: #000; color: #fff; text-decoration: none; font-weight: 700; font-size: 20px; line-height: 1.1; border: 1px solid #000; }
+.store svg { width: 28px; height: 28px; flex: none; }
+.store small { display: block; font-weight: 500; font-size: 12px; opacity: 0.85; }
+@media (prefers-color-scheme: dark) { .store { border-color: var(--line); } }
